@@ -1,0 +1,3 @@
+import { AtmoraWordmark } from '../components/AtmoraWordmark'
+import { RouteLink } from '../components/RouteLink'
+export function Footer(){return <footer className="footer"><div className="container footer__grid"><RouteLink className="footer__brand" to="/" aria-label="Atmora home"><AtmoraWordmark /></RouteLink><nav aria-label="Footer navigation"><RouteLink to="/technology">Technology</RouteLink><RouteLink to="/platform">Platform</RouteLink><RouteLink to="/pilot">Pilot</RouteLink><RouteLink to="/lab">Atmora Lab</RouteLink><RouteLink to="/app/overview">Operator demo</RouteLink><RouteLink to="/privacy">Privacy</RouteLink></nav><p className="mono">Atmosphere → condensation → water → evidence.</p></div></footer>}

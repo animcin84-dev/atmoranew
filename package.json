@@ -1,0 +1,45 @@
+{
+  "name": "atmora-production-site",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build && node scripts/prerender.mjs",
+    "typecheck": "tsc -b --pretty false",
+    "lint": "eslint .",
+    "test": "npm run test:core && npm run test:source",
+    "verify": "npm run test && npm run lint && npm run build",
+    "test:core": "rm -rf artifacts/core-test-build && tsc src/lib/dewPoint.ts src/lib/assessment.ts src/lib/routes.ts src/lib/condensationTimeline.ts src/lib/consoleUnits.ts --target ES2022 --module ES2022 --moduleResolution bundler --outDir artifacts/core-test-build --skipLibCheck && node --test tests/core.test.mjs tests/playwright-launcher.test.mjs",
+    "qa:static": "python scripts/render_multipage_qa.py",
+    "qa:console": "python scripts/render_console_qa.py",
+    "test:source": "python -m unittest discover -s tests -p 'test_*source.py' -v",
+    "verify:release": "npm run test && npm run qa:assets && npm run typecheck && npm run lint && npm run build && node scripts/playwright-runtime.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "qa:runtime": "npm run build && node scripts/playwright-runtime.mjs",
+    "qa:assets": "python scripts/check_asset_budget.py",
+    "qa:crossbrowser": "npm run build && playwright test"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "5.2.6",
+    "@fontsource/ibm-plex-sans": "5.2.6",
+    "@fontsource/ibm-plex-sans-condensed": "5.2.6",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "4.2.0",
+    "eslint": "9.39.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-refresh": "0.5.6",
+    "globals": "16.3.0",
+    "typescript": "5.7.3",
+    "typescript-eslint": "8.70.0",
+    "vite": "5.4.21",
+    "@playwright/test": "1.63.0"
+  }
+}

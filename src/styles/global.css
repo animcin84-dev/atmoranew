@@ -1,0 +1,23 @@
+@import './tokens.css';
+@import '@fontsource/ibm-plex-sans-condensed/400.css';
+@import '@fontsource/ibm-plex-sans-condensed/500.css';
+@import '@fontsource/ibm-plex-sans/400.css';
+@import '@fontsource/ibm-plex-sans/500.css';
+@import '@fontsource/ibm-plex-mono/400.css';
+*{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--ink-950)}body{margin:0;overflow-x:clip;background:var(--paper-50);color:var(--ink-900);font-family:var(--font-sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}input,button{font:inherit}a{color:inherit}img{display:block;max-width:100%}figure{margin:0}button,input{border-radius:0}.skip-link{position:fixed;z-index:999;left:12px;top:12px;transform:translateY(-180%);padding:10px 14px;background:white;color:#06101c}.skip-link:focus{transform:none}:focus-visible{outline:2px solid var(--cyan-400);outline-offset:4px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.container{width:min(calc(100% - var(--page-gutter) - var(--page-gutter)),var(--max));margin-inline:auto}.section{padding-block:var(--section-y)}.section--dark{background:var(--ink-950);color:var(--paper-50)}.section--light{background:var(--paper-50);color:var(--ink-900)}.display{margin:0;font-family:var(--font-condensed);font-weight:500;text-transform:uppercase;letter-spacing:-.055em;line-height:.82;text-wrap:balance}.display--xl{font-size:clamp(68px,10.5vw,184px)}.display--lg{font-size:clamp(56px,8vw,136px)}.display--md{font-size:clamp(44px,6vw,96px)}.eyebrow,.kicker,.data-label,.mono{text-transform:uppercase;letter-spacing:.16em}.eyebrow,.kicker,.data-label{font-size:10px;line-height:1.45}.kicker{margin:0;color:currentColor;opacity:.58}.mono{font-family:var(--font-mono)}.body,.body-lg{line-height:1.55;letter-spacing:-.018em}.body{font-size:16px}.body-lg{font-size:clamp(18px,1.45vw,24px)}.muted{color:var(--text-muted-light)}.button{min-height:48px;display:inline-flex;align-items:center;justify-content:space-between;gap:32px;padding:12px 18px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:var(--paper-50);color:var(--ink-950);font-weight:500;text-decoration:none;cursor:pointer;transition:transform var(--ui) var(--ease-out),background var(--ui-fast),color var(--ui-fast)}.button:hover{transform:translateY(-2px)}.button--dark{background:var(--ink-900);color:var(--paper-50)}.button--ghost{background:transparent;color:inherit;border-color:currentColor}.button:disabled{opacity:.35;cursor:not-allowed;transform:none}.media-label{position:absolute;z-index:3;left:14px;top:14px;padding:6px 8px;background:rgba(3,8,17,.72);color:white;font:10px/1.25 var(--font-mono);letter-spacing:.12em;text-transform:uppercase;backdrop-filter:blur(10px)}@media(max-width:699px){:root{--page-gutter:18px;--section-y:82px}.display--xl{font-size:clamp(58px,20vw,94px)}.display--lg{font-size:clamp(52px,17vw,80px)}.display--md{font-size:clamp(42px,14vw,66px)}.body-lg{font-size:18px}}
+
+@media(forced-colors:active){
+  *{forced-color-adjust:auto}
+  html,body,.section--dark,.section--light{background:Canvas;color:CanvasText}
+  .site-nav,.site-nav__mobile,.assessment__panel,.threshold,.climate__instrument,.intelligence__telemetry{background:Canvas;color:CanvasText;border-color:CanvasText}
+  .button,.site-nav__cta{background:ButtonFace;color:ButtonText;border:1px solid ButtonText}
+  a{color:LinkText}
+  :focus-visible{outline:3px solid Highlight;outline-offset:4px}
+  .media-label,.route-hero__state,.assessment__demo-note,.assessment__submit-error{background:Canvas;color:CanvasText;border:1px solid CanvasText;backdrop-filter:none}
+  .hero__veil,.technology-hero__veil,.pilot-hero__veil,.page-transition,.dew-progress,.optical-media::after,.condensation__shade{display:none!important}
+  .threshold__dew,.threshold__surface,.technology-hero__datum i,.principles__threshold-line,.pilot__decision-rail{stroke:CanvasText!important;background:CanvasText!important;border-color:CanvasText!important}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}

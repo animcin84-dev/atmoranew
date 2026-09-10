@@ -1,0 +1,3 @@
+ATMORA FULL FRONTEND ECOSYSTEM v2.0.0
+Public cinematic website + frontend-only Operator Console
+Synthetic operator data only; no backend/auth/device connection.

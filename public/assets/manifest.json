@@ -1,0 +1,194 @@
+[
+  {
+    "key": "hero",
+    "source": "ChatGPT Image Sep 9, 2026, 07_36_10 PM (3)(1).png",
+    "desktop": "/assets/hero-condensation.webp",
+    "mobile": "/assets/hero-condensation-mobile.webp",
+    "poster": "/assets/hero-condensation.webp",
+    "dimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "alt": "Condensation forming on a cold finned surface in atmospheric mist.",
+    "category": "hero",
+    "state": "illustrative",
+    "avif": "/assets/hero-condensation.avif",
+    "mobileAvif": "/assets/hero-condensation-mobile.avif"
+  },
+  {
+    "key": "atmosphereLight",
+    "source": "ChatGPT Image Sep 9, 2026, 07_36_11 PM (4)(1).png",
+    "desktop": "/assets/atmosphere-light.webp",
+    "mobile": "/assets/atmosphere-light-mobile.webp",
+    "poster": "/assets/atmosphere-light.webp",
+    "dimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "alt": "A bright mountain atmosphere rising through cloud layers.",
+    "category": "atmosphere",
+    "state": "illustrative"
+  },
+  {
+    "key": "measurementMountains",
+    "source": "ChatGPT Image Sep 9, 2026, 07_36_12 PM (6)(1).png",
+    "desktop": "/assets/measurement-mountains.webp",
+    "mobile": null,
+    "poster": "/assets/measurement-mountains.webp",
+    "dimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "alt": "Mountain atmosphere used as an illustrative backdrop for measurement concepts.",
+    "category": "atmosphere",
+    "state": "illustrative"
+  },
+  {
+    "key": "condensationAmbient",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_17 PM (1)(1).png",
+    "desktop": "/assets/condensation-ambient.webp",
+    "mobile": null,
+    "poster": "/assets/condensation-ambient.webp",
+    "dimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "alt": "A cold fin surface covered with fine condensation droplets.",
+    "category": "condensation",
+    "state": "illustrative"
+  },
+  {
+    "key": "condensationGrowth",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_18 PM (2)(1).png",
+    "desktop": "/assets/condensation-growth.webp",
+    "mobile": null,
+    "poster": "/assets/condensation-growth.webp",
+    "dimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "alt": "Larger droplets growing and merging on a cold fin surface.",
+    "category": "condensation",
+    "state": "illustrative"
+  },
+  {
+    "key": "condensationFlow",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_20 PM (3)(1).png",
+    "desktop": "/assets/condensation-flow.webp",
+    "mobile": "/assets/condensation-flow-mobile.webp",
+    "poster": "/assets/condensation-flow.webp",
+    "dimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "alt": "Condensed water flowing downward from a cold surface under gravity.",
+    "category": "condensation",
+    "state": "illustrative",
+    "avif": "/assets/condensation-flow.avif",
+    "mobileAvif": "/assets/condensation-flow-mobile.avif"
+  },
+  {
+    "key": "device",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_22 PM (4)(1).png",
+    "desktop": "/assets/device-concept.webp",
+    "mobile": null,
+    "poster": "/assets/device-concept.webp",
+    "dimensions": {
+      "width": 1448,
+      "height": 1086
+    },
+    "alt": "Atmora atmospheric water generator concept system render.",
+    "category": "device",
+    "state": "concept"
+  },
+  {
+    "key": "cutaway",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_24 PM (5)(1).png",
+    "desktop": "/assets/device-cutaway.webp",
+    "mobile": null,
+    "poster": "/assets/device-cutaway.webp",
+    "dimensions": {
+      "width": 1448,
+      "height": 1086
+    },
+    "alt": "Illustrative Atmora concept cutaway showing airflow, condensation, collection, treatment, storage and controls.",
+    "category": "cutaway",
+    "state": "concept"
+  },
+  {
+    "key": "cloud",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_25 PM (6)(1).png",
+    "desktop": "/assets/cloud-dashboard.webp",
+    "mobile": "/assets/cloud-dashboard-mobile.webp",
+    "poster": "/assets/cloud-dashboard.webp",
+    "dimensions": {
+      "width": 1448,
+      "height": 1086
+    },
+    "alt": "Synthetic demo of an Atmora device monitoring dashboard.",
+    "category": "cloud",
+    "state": "synthetic-demo",
+    "avif": "/assets/cloud-dashboard.avif",
+    "mobileAvif": "/assets/cloud-dashboard-mobile.avif"
+  },
+  {
+    "key": "fleet",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_27 PM (7)(1).png",
+    "desktop": "/assets/fleet-dashboard.webp",
+    "mobile": null,
+    "poster": "/assets/fleet-dashboard.webp",
+    "dimensions": {
+      "width": 1448,
+      "height": 1086
+    },
+    "alt": "Synthetic demo of an Atmora fleet monitoring interface.",
+    "category": "fleet",
+    "state": "synthetic-demo"
+  },
+  {
+    "key": "batch",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_29 PM (8)(1).png",
+    "desktop": "/assets/water-batch.webp",
+    "mobile": "/assets/water-batch-mobile.webp",
+    "poster": "/assets/water-batch.webp",
+    "dimensions": {
+      "width": 1448,
+      "height": 1086
+    },
+    "alt": "Synthetic demo of an Atmora water batch evidence record.",
+    "category": "evidence",
+    "state": "synthetic-demo",
+    "avif": "/assets/water-batch.avif",
+    "mobileAvif": "/assets/water-batch-mobile.avif"
+  },
+  {
+    "key": "hospitality",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_30 PM (9)(1).png",
+    "desktop": "/assets/usecase-hospitality.webp",
+    "mobile": "/assets/usecase-hospitality-mobile.webp",
+    "poster": "/assets/usecase-hospitality.webp",
+    "dimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "alt": "Illustrative remote hospitality setting with an Atmora concept device in a mountain environment.",
+    "category": "use-case",
+    "state": "concept",
+    "avif": "/assets/usecase-hospitality.avif",
+    "mobileAvif": "/assets/usecase-hospitality-mobile.avif"
+  },
+  {
+    "key": "research",
+    "source": "ChatGPT Image Sep 9, 2026, 08_48_31 PM (10)(1).png",
+    "desktop": "/assets/usecase-research.webp",
+    "mobile": null,
+    "poster": "/assets/usecase-research.webp",
+    "dimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "alt": "Illustrative high-altitude research setting with an Atmora concept device.",
+    "category": "use-case",
+    "state": "concept"
+  }
+]

@@ -1,0 +1,1 @@
+export function dewPointC(tempC:number,rhPercent:number):number{const rh=Math.min(100,Math.max(1,rhPercent));const a=17.62,b=243.12;const gamma=Math.log(rh/100)+(a*tempC)/(b+tempC);return(b*gamma)/(a-gamma)}

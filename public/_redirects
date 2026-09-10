@@ -1,0 +1,8 @@
+/technology /technology/index.html 200
+/platform /platform/index.html 200
+/lab /lab/index.html 200
+/pilot /pilot/index.html 200
+/privacy /privacy/index.html 200
+/app / 200
+/app/* / 200
+/* /404.html 404
